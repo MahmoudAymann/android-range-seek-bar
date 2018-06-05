@@ -184,7 +184,7 @@ public class RangeSeekBar<T extends Number> extends ImageView {
             internalPad = PixelUtil.dpToPx(context, INITIAL_PADDING_IN_DP);
             barHeight = PixelUtil.dpToPx(context, LINE_HEIGHT_IN_DP);
             activeColor = ACTIVE_COLOR;
-            defaultColor = Color.GRAY;
+            defaultColor = Color.WHITE;
             alwaysActive = false;
             showTextAboveThumbs = true;
             textAboveThumbsColor = Color.WHITE;
